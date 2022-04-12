@@ -1,0 +1,20 @@
+.back-arrow{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: rgb(11, 151, 206);;;
+}
+.ReplyPage{
+    width: auto;
+    overflow-x: hidden !important;
+}
+.reply-loading-Spinner{
+    margin-left: 40%;
+    margin-bottom: 10vh;
+}
+
+.reply-replyContainer{
+    margin-bottom: 10rem;
+}

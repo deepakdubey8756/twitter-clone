@@ -1,0 +1,56 @@
+.recUser{
+    display: flex;
+    align-items: center;
+}
+
+.recoImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.recomDetails{
+    margin-left: 5%;
+    width: 74%;
+}
+.recomUserName{
+    font-size: 18px;
+    font-weight: 700;
+    width: 130%;
+}
+.recomUserId{
+    font-size: 14px;
+    color: gray ;
+}
+.recomFollow{
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 18px;
+    background-color: rgb(27, 162, 216);
+}
+.recUser:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(58, 57, 57);;
+}
+.recomFollow:hover{
+    background-color: rgb(3, 92, 128);
+    color: white;
+}
+.promotedUser{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 650px) {
+    .recomUserId{
+        font-size: 14px;
+    }
+    .recomDetails{
+        width: 50%;
+    }
+    .recomFollow{
+        margin-left: 2rem;
+    }
+}

@@ -1,0 +1,41 @@
+.notification>h3{
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.notificationItems{
+    margin-bottom: 10px;
+}
+.notification-loading-Spinner{
+    margin-top: 30vh;
+}
+
+
+.notification-mySocial{
+    display: flex;
+    margin-top: 3rem;
+    width: 80%;
+    justify-content: space-around;
+    margin-left: 2rem;
+}
+
+.notification-github{
+    display: flex;
+    align-items: center;
+    background-color: #0e97ce;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: white;
+}
+
+.notification-github>p{
+    margin-right: 0.3rem;
+}
+.notification-twitter{
+    display: flex;
+    align-items: center;
+    background-color: #0e97ce;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: white;
+}

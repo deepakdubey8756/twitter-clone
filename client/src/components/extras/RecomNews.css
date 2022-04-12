@@ -1,0 +1,36 @@
+.recomNews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsLeft{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+.newsCategory{
+    color: rgb(58, 57, 57);
+    font-weight: 500;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.newsHeading{
+    width: 70%;
+    margin-top: 2px;
+    padding-left: 5px;
+    font-weight: 800;
+}
+.newsRight>img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.totalTweets{
+    color: rgb(58, 57, 57);
+    font-size: 13px;
+    margin-left: 5px;
+}
+.tweetExtra{
+    font-size: 30px;
+}

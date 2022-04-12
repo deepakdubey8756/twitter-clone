@@ -1,0 +1,138 @@
+.tweetingSection{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(231, 225, 225);
+}
+/* font-family: 'BIZ UDPMincho', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Serif', serif; */
+
+.tweet-box>img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    border: 1px solid gray;
+}
+.tweet-box{
+    display: flex;
+}
+
+
+.rest-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.tweeting-userInputSection>textarea{
+    background-color: white;
+    margin-left: 5px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    width: auto;
+    height: 5rem;
+    color: black;
+}
+.tweeting-filesSection{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.tweeting-filesSection>img{
+    width: 80%;
+    height: 300px;
+    border: 1px solid rgb(150, 146, 146);
+    object-fit: cover;
+
+}
+
+.tweeting-bottomSection{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    cursor: pointer;
+    margin-left: -20px;
+}
+.tweeting-tweetButton{
+    background-color: rgb(11, 151, 206);
+    display: block;
+    margin-top: 6%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 60%;
+}
+.tweeting-tweetButton-block{
+    background-color: rgb(144, 216, 245);
+    display: block;
+    margin-top: 6%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 60%;
+    margin-right: 10%;
+}
+.tweeting-tweetButton:hover{
+    background-color: rgb(11, 151, 206);
+}
+
+.image-close{
+    font-size: 1.5rem;
+}
+
+@media screen  and (max-width: 650px){
+    .tweetingSection{
+        padding-bottom: 1rem;
+        margin-left: 1rem;
+        padding-left: 0rem;
+        margin-top: 0.5rem;
+        margin-right: 1rem;
+    }
+    .tweet-box>img{
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+
+    .rest-section{
+        margin-top: 00px;
+    }
+
+    .tweeting-filesSection{
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+    .tweeting-filesSection>img{
+        width: 80%;
+        height: 200px;
+        object-fit: contain;
+    }
+    
+    .tweeting-bottomSection{
+        margin-top: 0rem;
+        margin-left: -2rem; 
+    }
+    .tweeting-tweetButton{
+        padding: 0px;
+        width: 5rem;
+        height: 2rem;
+    }
+    .tweeting-tweetButton-block{
+        padding: 0px;
+        width: 5rem;
+        height: 2rem;
+    }
+    
+}

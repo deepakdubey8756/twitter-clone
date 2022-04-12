@@ -1,0 +1,60 @@
+.clickedTweetPost-container{
+    display: flex;
+    border-bottom: 1px solid rgb(241, 241, 245);
+    padding-bottom: 1rem;
+    color: black;
+    padding-top: 1rem;
+}
+.clickedTweet-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+.clickedTweetPost>img{
+    width: 370px;
+    height: 270px;
+    border: 1px solid rgb(235, 227, 227);
+    object-fit: contain;
+    margin-top: 1rem;
+}
+.clickedTweetPost{
+    margin-left: 1rem;
+}
+.clicked-user-name{
+    display: flex;
+    font-weight: bold;
+}
+.clicked-user-name>span{
+    color: rgb(58, 57, 57);
+    margin-left: 5px;
+    margin-top: 5px;
+} 
+.clicked-post-content{
+    margin-top: 1rem;
+    width: 90%;
+}
+
+.clickedTweet-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 650px){
+    .clickedTweet-image{
+        width: 2.5rem;
+        height: 2.5rem;
+        border: 1px solid gray;
+    }
+    .clickedTweetPost>img{
+        width: 85%;
+        height: 270px;
+    }
+    .clickedTweet-options{
+        width: 90%;
+    }
+    
+}

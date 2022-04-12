@@ -1,0 +1,99 @@
+.setting{
+    color: black;
+}
+.setting-arrowBack-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+.save-button{
+    background-color: rgb(11, 151, 206);
+    color: white;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-size: 20px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.edit-profile{
+
+    font-size: 20px;
+}
+.edited-banner-image{
+    border-bottom: 1px solid gray;
+}
+
+.edited-banner-image>img{
+    height: 250px;
+    width: 100%;
+    z-index: 1;
+}
+.edit-profileImage{
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    margin-left: 10px;
+    margin-top: -40px;
+
+}
+.edit-profileImage>img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid white;
+}
+.edit-profile-image-close{
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 30px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.edit-name{
+    margin-top: 40px;
+    margin-left: 10px
+}
+.edit-name>input{
+    width: 200px;
+    height: 40px
+}
+/* .displayMessage{
+    color: #0d97ce;
+    text-align: center;
+    margin-top: 20px;   
+    font-size: 20px;
+} */
+.switch-professional{
+    width: 13rem;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-left: 6px;
+
+}
+
+@media screen  and (max-width:650px){
+    /* .save-button{
+        min-width: 20vw;
+        margin-left: 60%;
+        font-size: 20px;
+        margin-right: 3rem;
+    } */
+    .edit-profile{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .edited-banner-image{
+        width: 90%;
+        margin-left: 1rem;
+    }
+
+    .edited-banner-image>img{
+        height: 150px;
+        z-index: 1;
+    }
+}

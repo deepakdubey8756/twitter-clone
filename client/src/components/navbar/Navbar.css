@@ -1,0 +1,132 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.twitter-logo{
+    color: rgb(11, 151, 206);
+    font-size: 30px;
+    margin-top: 10%;
+}
+.twitterNavs{
+    margin-top: 10%;
+}
+
+.navOptions{
+    display: flex;
+    padding: 8px;
+    cursor: pointer;
+    color: black;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+.navOptions-name{
+    display: block;
+    font-size: 20px;
+    text-decoration: none !important;
+    color: inherit;
+    margin-left: 20px;
+}
+
+.navOptions:hover{
+    background-color: rgb(231, 230, 230);
+    border-radius: 20px;
+    color: black !important;
+}
+
+.tweetOption{
+    background-color: rgb(11, 151, 206);
+    display: block;
+    margin-top: 10%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 900;
+    margin-bottom: 10%;
+    cursor: pointer;
+    width: 40%;
+}
+.mobileTweetOption{
+    display: none;
+}
+
+.tweetOption:hover{
+    background-color: rgb(10, 112, 153);
+}
+.userDetails-container{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    border-radius: 30px;
+    margin-top: 10%;
+}
+.userDetails-container:hover{
+    background-color: rgb(223, 221, 221);
+    border-radius: 30px;
+    color: black;
+}
+
+.userImage>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid rgb(187, 186, 186);
+}
+.userDetails{
+    display: block;
+}
+.userName{
+    font-weight: 800;
+    display: block;
+}
+.userId{
+    font-size: 12px;
+    display: block;
+}
+.navOptions-black{
+    color: black;
+}
+@media screen and ( min-width:650px) and (max-width: 992px) {    
+   .navOptions{
+        padding: 3px;
+        cursor: pointer;
+        margin-top: 100%;
+    }
+    .navOptions-name{
+        display: none;
+    }
+    .navOptions>span{
+        display: none;
+    }
+    .navOptions:hover{
+        color: blue !important;
+        background-color: transparent;
+    }
+    .userDetails-container:hover{
+        background-color: inherit;
+    }
+    .tweetOption{
+        display: none;
+    }
+    .mobileTweetOption{
+        display: block;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+        color: black;
+    }
+    .mobileTweetOption:hover{
+        color: blue;
+    }
+    .userDetails{
+        display: none;
+    }
+
+  }
+
+  

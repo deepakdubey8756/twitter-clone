@@ -1,0 +1,6 @@
+.messages{
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20vh;
+}

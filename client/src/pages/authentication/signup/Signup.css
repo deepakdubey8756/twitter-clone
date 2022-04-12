@@ -1,0 +1,79 @@
+.signup-container{
+    margin-top: 3vh;
+    padding-left: 30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'PT Serif', serif; 
+}
+
+
+.signup-twitter-logo{
+    color: #0d97ce;
+    font-size: 40px;
+    margin-top: 3rem;
+}
+
+
+.signup-container>h1{
+    font-size: 2rem;
+    font-family: 'BIZ UDPMincho', serif
+}
+
+
+
+label{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0.3vh;
+    margin-top: 0.5vh;
+}
+
+.address-input{
+    width: 80%;  
+}
+
+input{
+    outline: none;
+    height: 25px;
+    display: block;
+}
+
+button{
+    display: block;
+    background-color: #0d97ce;
+    color: white;
+    margin-top: 0.5rem;
+    width: 6rem;
+    height: 2rem;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.signup-features{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.signup-signupInstead{
+    margin-top: 1rem;
+}
+
+.signup-footer{
+    margin-top: 2rem;
+}
+@media only screen and (max-width: 750px) {
+    .signup-container{
+        margin-left: 5%;
+        margin-right: 5%;
+        box-shadow: none;
+    } 
+    .signup-container>h1{
+    font-size: 1.5rem;
+}
+   
+} 

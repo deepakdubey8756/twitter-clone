@@ -1,0 +1,81 @@
+.login-container{
+    margin-top: 8vh;
+    padding-left: 30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'PT Serif', serif; 
+}
+
+/* font-family: 'BIZ UDPMincho', serif
+font-family: 'PT Serif', serif;  
+font-family: 'Oswald', sans-serif*/
+
+.login-twitter-logo{
+    color: #0d97ce;
+    font-size: 40px;
+    margin-top: 1rem;
+}
+
+
+.login-container>h1{
+    font-size: 1.5rem;
+    font-family: 'BIZ UDPMincho', serif;
+}
+
+
+
+label{
+    display: block;
+    font-family: 'Oswald', sans-serif
+}
+
+input{
+    outline: none;
+    height: 25px;
+    display: block;
+    border: 1px solid black;
+}
+
+button{
+    display: block;
+    background-color: #0d97ce;
+    color: white;
+    margin-top: 0.5rem;
+    width: 6rem;
+    height: 2rem;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.login-features{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.login-signupInstead{
+    margin-top: 1rem;
+}
+
+.login-footer{
+    margin-top: 2rem;
+}
+
+.address-input{
+    width: fit-content;
+}
+@media only screen and (max-width: 600px) {
+    .login-container{
+        margin-left: 5%;
+        margin-right: 5%;
+        box-shadow: none;
+    } 
+
+    .login-container>h1{
+    font-size: 1.5rem;
+}
+
+} 

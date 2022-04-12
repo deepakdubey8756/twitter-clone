@@ -1,0 +1,44 @@
+.home{
+    width: auto;
+    overflow-x: hidden !important;
+    font-family: 'PT Serif', serif
+}
+
+.home-headings{
+    margin-left: 1rem;
+}
+.home-headings>h3{
+    margin-left: 16px;
+    font-size: 25px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+.home-userTweet-container{
+    width: 100vw Imp !important;
+}
+.home-loading-Spinner{
+    margin-top: 20vh;
+    margin-left: 40%;
+}
+.home-serverError{
+    margin-top:30vh;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.home-serverError>p{
+    display: block;
+}
+
+.postContainer{
+    border-bottom: 1px solid rgb(44, 44, 44);
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 650px) {
+    .home-headings{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: rgb(11, 151, 206);
+    }
+}

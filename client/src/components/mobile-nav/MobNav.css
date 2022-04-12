@@ -1,0 +1,11 @@
+.mobile-navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.5rem;
+}
+.mobile-navOptions{
+    color: black !important;
+}
+
+
+

@@ -1,0 +1,59 @@
+.docs{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-family: 'PT Serif', serif
+}
+/* font-family: 'BIZ UDPMincho', serif
+font-family: 'PT Serif', serif;  
+font-family: 'Oswald', sans-serif*/
+.docs-back-arrow{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.docs>h2{
+    margin-top: 2rem;
+    font-family: 'Oswald', sans-serif
+}
+.docs>ul>li{
+ 
+    margin-right: 2rem;
+    line-height: 2rem;
+}
+
+.mySocial{
+    display: flex;
+    margin-top: 3rem;
+    width: 80%;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+.github{
+    display: flex;
+    align-items: center;
+    background-color: #0e97ce;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: white;
+}
+
+.github>p{
+    margin-right: 0.3rem;
+}
+.twitter{
+    display: flex;
+    align-items: center;
+    background-color: #0e97ce;
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.hightlighted-text{
+    background-color: #e4e1e1;
+    border-radius: 5px; 
+    font-family: 'BIZ UDPMincho', serif
+}
