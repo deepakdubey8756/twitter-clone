@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
-const mongoURI = `mongodb+srv://deepakdubey:MYpassisdeepak8756@cluster0.ktvnl.mongodb.net/twitter-backend?retryWrites=true&w=majority`;
-
+const mongoURI = "Enter you url here to connect to mongodb cloud or local"
 
 const connectToMongo = () => {
     mongoose.connect(mongoURI, (err)=>{
